@@ -63,13 +63,6 @@ Les sections suivantes décrivent un guide de style _raisonable_ pour tout déve
 		// déclarations
 	}
 
-	// Ou...
-	var i = 0,
-		length = 100;
-
-	for ( ; i < length; i++ ) {
-		// déclarations
-	}
 
 	var prop;
 	for ( prop in object ) {
@@ -79,7 +72,8 @@ Les sections suivantes décrivent un guide de style _raisonable_ pour tout déve
 
 	if ( true ) {
 		// déclarations
-	} else {
+	} 
+	else {
 		// déclarations
 	}
 	```
@@ -113,12 +107,6 @@ Les sections suivantes décrivent un guide de style _raisonable_ pour tout déve
 		bar = "",
 		quux;
 
-	// ou..
-	var // donnez votre avis
-	foo = "",
-	bar = "",
-	quux;
-
 	// 2.B.1.3
 	// La déclaration des variables 'var' doit toujours être au début de la portée de chaque fonction.
 	// Le même principe s'applique au 'const' défini dans ECMAScript 6.
@@ -127,12 +115,14 @@ Les sections suivantes décrivent un guide de style _raisonable_ pour tout déve
 	function foo() {
 
 		// déclarations
+		
 		var bar = "",
 			qux;
 	}
 
 	// Correcte
 	function foo() {
+	
 		var bar = "",
 			qux;
 
@@ -257,7 +247,8 @@ Les sections suivantes décrivent un guide de style _raisonable_ pour tout déve
 
 	if (true) {
 		// déclarations
-	} else {
+	} 
+	else {
 		// déclarations
 	}
 
@@ -860,22 +851,6 @@ Les sections suivantes décrivent un guide de style _raisonable_ pour tout déve
 	}
 
 	```
-
-
-8. <a name="native">Native & Host Objects</a>
-
-        Le principe de base est ici:
-
-	### Ne faites pas de choses stupides et tout sera OK.
-
-	Pour renforcer ce concept, s'il vous plaît regarder la présentation suivante:
-
-	#### “Everything is Permitted: Extending Built-ins” by Andrew Dupont (JSConf2011, Portland, Oregon)
-
-	<iframe src="http://blip.tv/play/g_Mngr6LegI.html" width="480" height="346" frameborder="0" allowfullscreen></iframe><embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#g_Mngr6LegI" style="display:none"></embed>
-
-	http://blip.tv/jsconf/jsconf2011-andrew-dupont-everything-is-permitted-extending-built-ins-5211542
-
 
 9. <a name="comments">Commentaires</a>
 
