@@ -4,7 +4,9 @@
   - http://edorian.github.io/php-coding-standard-generator/#phpmd
 
 ###JavaScript
+  - CF Fichier
 
 ###Php
 
 ###Css
+  - http://codeguide.co/#css
