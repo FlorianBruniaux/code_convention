@@ -6,14 +6,10 @@ Example:
     var s = "JavaScript syntax highlighting";
     alert(s);
     ```
-
-    ```css
-
-    ```
-
-    ```html
-    
-    ```
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
     
     ```php
     $path = "";
@@ -22,6 +18,13 @@ Example:
 	include("includes/db_connect.php");
 	include("includes/functions.php");
     ```
+```php
+$path = "";
+$rubrique = "contact";
+$title="Véhicules E-motors";
+include("includes/db_connect.php");
+include("includes/functions.php");
+```
 
     ```
     No language indicated, so no syntax highlighting.
@@ -29,6 +32,11 @@ Example:
     But let's throw in a <b>tag</b>.
     ```
 
+```
+No language indicated, so no syntax highlighting.
+s = "There is no highlighting for this."
+But let's throw in a <b>tag</b>.
+```
 
 - @foo : for team members
 - @all : for the whole team
