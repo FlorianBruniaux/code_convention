@@ -4,7 +4,7 @@
   - http://edorian.github.io/php-coding-standard-generator/#phpmd
 
 ###JavaScript
-  - CF Fichier
+  - https://github.com/FlorianBruniaux/code_convention/blob/master/js.md
 
 ###Php
 
